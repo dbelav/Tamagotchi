@@ -76,6 +76,9 @@ clickFluffy.addEventListener('click', function () {
     setInterval(output, 1);
     live = setInterval(timeLived, 1000);
     cheking = setInterval(check, 1);
+    clickNinja.style.display = 'none';
+    clickLazy.style.display = 'none';
+    clickFluffy.style.display = 'none';
 });
 
 let clickLazy = document.getElementById('hard');
@@ -85,6 +88,9 @@ clickLazy.addEventListener('click', function () {
     setInterval(output, 1);
     live = setInterval(timeLived, 1000);
     cheking = setInterval(check, 1);
+    clickNinja.style.display = 'none';
+    clickLazy.style.display = 'none';
+    clickFluffy.style.display = 'none';
 });
 
 
@@ -112,8 +118,9 @@ clickNinja.addEventListener('click', function () {
             }
         }
     }, 1);
-
-
+    clickNinja.style.display = 'none';
+    clickLazy.style.display = 'none';
+    clickFluffy.style.display = 'none';
 });
 
 let clickEat = document.getElementById('eat');
